@@ -1,0 +1,30 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+#/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# for build purposes
+#.gitignoring these files means that only your minified JS and CSS will be published to the source folder which anyone can view using the developer tools.
+src/*
+public/*
+build/static/css/*.map
+build/static/js/*.map
